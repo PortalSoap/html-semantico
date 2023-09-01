@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+* {
+    font-family: 'Inter', sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.placeholder {
+    font-size: 40px;
+}
+
+.nav-logo {
+    height: 3.5rem;
+    width: 3.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #444;
+}
+
+.nav-logo .placeholder {
+    font-size: 20px;
+    transform: rotate(30deg);
+}
+
+nav .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #999;
+}
+
+nav .container ul {
+    display: flex;
+    list-style: none;
+    gap: 1rem;
+}
+
+nav .container li a {
+    text-decoration: none;
+    color: #000;
+}
+
+#banner {
+    height: 600px;
+    width: 100%;
+    background-color: #444;
+}
+
+#banner .placeholder {
+    transform: rotate(30deg);
+}
+
+main .container {
+    justify-content: flex-start;
+    gap: 2rem;
+    background-color: #999;
+}
+
+.card {
+    width: 600px;
+    text-align: justify;
+}
+
+.card img {
+    height: 100%;
+    width: 100%;
+}
+
+figcaption {
+    text-align: center;
+}
+
+.card h2 {
+    margin-bottom: 0.8rem;
+}
+
+.card h2, .card p {
+    margin-top: 0;
+}
+
+aside {
+    width: 99%;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+}
+
+aside .card {
+    width: 250px;
+}
+
+.copyright {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
